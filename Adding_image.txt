@@ -1,0 +1,6 @@
+<html>
+	<head><title>Adding images</title></head>
+	<body>
+		<img src="IMG_20230525_090450_116.jpg" height="100" width="80" border="2">
+	</body>
+</html>
