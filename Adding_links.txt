@@ -1,0 +1,10 @@
+<html>
+    <head><title>Adding links</title></head>
+    <body>
+        I am a new web developer<br>
+        <a href="Formating_tags.html">Go to formatting tags</a><br>
+        some important websites are given below<br>
+        <a href="http://www.google.com/">Go to Google</a><br>
+        <a href=http://www.youtube.com/">Go to youtube</a><br>
+    </body>
+</html>
