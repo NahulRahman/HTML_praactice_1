@@ -1,0 +1,28 @@
+<html>
+    <head><title>Table</title></head>
+    <body>
+        <table border="1" align="center">
+            <caption>Table: RESULT SHEET</caption>
+            <tr>
+                <th>EXAM</th>
+                <th>GPA</th>
+                <th>STUDENTS</th>
+                <th>COLLEGE</th>
+            </tr>
+            <tr>
+                <td rowspan="2">HSC</td>
+                <td>5</td>
+                <td>900</td>
+                <td rowspan="3"><a href="https://www.google.com/">Google</a></td>
+            </tr>
+            <tr>
+                <td>4.88</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td colspan="3">Thanks</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
