@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My classroom | Home</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>My Classroom</h1>
+        
+    </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">College Review</a>
+        <a href="">courses</a>
+        <a href="">Study Materials</a>
+        <a href="">Login/Signup</a>
+    </nav>
+    <main>
+        <h2>Courses</h2>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 1.jpg" controls ></video>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 2.jpg" controls></video>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 4.jpg" controls></video><br><br><br>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 1.jpg" controls ></video>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 2.jpg" controls></video>
+        <video src="WhatsApp Video 2023-06-22 at 13.49.36.mp4" width="33%" poster="the blood of youth 4.jpg" controls></video>
+
+        <section>
+            <h2>College Reviews</h2>
+            <iframe src="https://codeforwin.org/c-programming-examples-exercises-solutions-beginners" frameborder="1" width="30%" height="20%" allowfullscreen></iframe>
+            <iframe src="https://cryptii.com/" frameborder="1" width="30%" height="20%" allowfullscreen></iframe>
+            <iframe src="https://www.tunnelsup.com/" frameborder="1" width="30%" height="20%" allowfullscreen></iframe>
+        </section>
+        
+        <section>
+            <h2>Study materials</h2><hr><br>
+            <a target="_blank" href="Arduino Based Fire Fighting Robot -Formatted Paper.pdf" ><img src="modern-blue-low-poly-triangle-shapes-banner-background-free-vector.jpg" alt="" height="60%" width="24%"></a>
+            <a target="_blank" href="BFS & DFS 2.pdf" ><img src="modern-blue-low-poly-triangle-shapes-banner-background-free-vector.jpg" alt="" height="60%" width="24%"></a>
+            <a target="_blank" href="BFS & DFS.pdf" ><img src="the blood of youth 4.jpg" alt="" height="60%" width="24%"></a>
+        </section>
+
+        <section>
+            <h2>
+                Our Founder
+            </h2>
+            <img src="IMG-20230525-WA0042.jpg" alt="This is MD. NAHUL RAHMAN" height="20%" width="10%">
+            <h3>MD. NAHUL RAHMAN</h3>
+            <a href="https://www.linkedin.com/in/md-nahul-rahman-3a9179263" target="_blank" rel="noopener noreferrer">linkedin</a>&nbsp;
+            <a href="https://www.facebook.com/profile.php?id=100024582909673&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">facebook</a>&nbsp;
+            <a href="https://github.com/NahulRahman" target="_blank" rel="noopener noreferrer">github</a>&nbsp;
+            <h4></h4>
+            <h5></h5>
+        </section><hr>
+    </main>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Terms and usage</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">&copy; 2023|My Classroom</a>
+    </footer>
+</body>
+</html>
