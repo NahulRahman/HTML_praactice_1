@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            h1::before{
+                content: "Hello ";
+                color: brown;
+                font-size: 12px;
+                background-color: cyan;
+            }
+            .special-effect::after{
+                content:" Bye";
+                font-size: 15px;
+                background-color: darkred;
+            }
+            p::before{
+                content:"❤️";
+            }
+            /*body{
+                counter-reset: section;
+            }
+            p::before{
+                counter-increment: section;
+                content:"Crush" counter(section)": ";
+            }*/
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo class</h1>
+        <h1 class="special-effect">Normal class</h1>
+        <h1 class="special-effect">Vodro class</h1>
+        <input name="Email" type="text"><br>
+        <input name="Password" type="text"><br>
+        <a href="https://www.w3resource.com/c-programming-exercises/">W3resources</a><br>
+        <a href="https://codeforces.com/">Visit codeforces</a><br>
+        pseudo classes are written in ":" char<br>
+        <ul>
+            <p>apa</p><p>dapa</p><p>mapa</p><p>kapa</p><p>japa</p>
+        </ul>
+    </body>
+</html>

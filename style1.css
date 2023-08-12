@@ -1,0 +1,19 @@
+h1{
+    font-size: 50px;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+   
+}
+.name-highlight{
+    color: rgba(28, 4, 236, 0.781);
+}
+.half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width:100%
+}
