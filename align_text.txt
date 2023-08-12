@@ -1,0 +1,8 @@
+<html>
+	<head><title>Aligning positions</title></head>
+	<body>
+		<h1 align="center">This is center aligned example</h1>
+		<h2 align="left">this is left jheaded aligned example</h2>
+		<p align="right">This is right aligned example</p>
+	</body>
+</html>

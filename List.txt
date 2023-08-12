@@ -1,0 +1,9 @@
+<html>
+    <head><title>using List tag</title></head>
+    <body>
+        <h2>Teacher list of ICT dept</h2>
+        <ol type="1">
+            <li>Nahul</li><li>karul</li><li>jarul</li><li>tarul</li>
+        </ol>
+    </body>
+</html>

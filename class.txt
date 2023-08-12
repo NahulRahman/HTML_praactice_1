@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title></title>
+        <style>
+            .special-effect:hover{
+                color:indianred;
+                font-size:60px;
+                background-color: lawngreen;
+            }
+            input:focus{
+                font-weight: 700;
+                color:green;
+                font-size: 20px;
+            }
+            li:first-child{
+                background-color: blueviolet;
+            }
+            li:last-child{
+                background-color: blue;
+            }
+            li:nth-child(2n){
+                background-color: gold;
+            }
+            li:nth-child(2n+1){
+                background-color: blueviolet;
+            }
+            a:visited{
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Pseudo class</h1>
+        <h1>Normal class</h1>
+        <h1 class="special-effect">Vodro class</h1>
+        <input name="Email" type="text"><br>
+        <input name="Password" type="text"><br>
+        <a href="https://www.w3resource.com/c-programming-exercises/">W3resources</a><br>
+        <a href="https://codeforces.com/">Visit codeforces</a><br>
+        pseudo classes are written in ":" char<br>
+        <ul>
+            <li>alia</li><li>dalia</li><li>malia</li><li>kalia</li><li>jalia</li>
+        </ul>
+    </body>
+</html>

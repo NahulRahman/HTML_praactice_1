@@ -1,0 +1,55 @@
+<html>
+    <head><title>CSS-Cascading Style Sheet</title>
+    <style>
+       
+        h1{
+            color:rgba(0, 140, 255, 0.767);
+            background-color: deeppink;
+            height: 50px;
+            width:500px; 
+        }
+        #birthday{
+            font-size: 40px;
+            color:darkturquoise;
+        }
+         
+        #murgi {
+            color:green;
+        }
+        .friend{
+            background-color: rgba(164, 221, 8, 0.623);
+        }
+        .neighbor{
+            width:200px;
+        }
+        h1.friend{
+            font-size: 75%;
+        }
+        .romantic{
+            color:white;
+        }
+        .blog{
+            color:black;
+        }
+        p{
+            color:rgba(233, 26, 26, 0.781);
+            font-size: 20px;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        } 
+    </style>
+    </head>
+    
+    <h1>Adding makeup. YAY!</h1>
+    <h2 id="bedana">THIS IS JUST MEDIUM</h2>
+    <h1>another header</h1>
+    <h1 class="friend">third header</h1>
+    <p id="murgi">hubby boia thakp, <span class="romantic">i love you so much</span>take love from me. <br>id cant be duplicated, just like uniqe id or phone number</p>
+    <p class="neighbor">today is eid</p>
+    <p class="friend">claas is used for specific para/items to be used <br>August september</p>
+    <p class="friend">cricket football</p>
+    <p class="friend">odissi iliad</p>
+    <p id="birthday" class="friend">Feeling excited to be teh birthday boy</p>
+    <body>well add design ourselves that is called embedded style, the eaiest way to style in to use style tag <br>
+        for this the syntax will be  stylename: stylevalue;<br></body>
+</html>
