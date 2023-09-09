@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<!--Assalamualikum, I am Md. Nahul Rahman, before submitting this webpage I want to say a few words.
+First of all I have very little knowledge in web development, most of the codes were extracted from Youtube. Also I took aid from Chatgpt.
+I have zero knowledge in JS, This was my first time using it. Please consider my mistakes and drawbacks, looking forward to hearing from you.-->
+<head>
+    <style>
+        body {
+            background: #198;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        h1 {
+            margin: 20px;
+            color: #fff;
+        }
+        h5{
+            margin: 10px;
+            color: #fff; 
+        }
+        .scoreboard {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px; /* Adjusted margin-top */
+        }
+
+        .team {
+            border: 2px solid #333;
+            padding: 10px;
+            width: 150px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .score {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .parent {
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; 
+        }
+
+        .gear {
+            position: relative;
+            width: 200px; 
+            height: 200px; 
+            margin: auto;
+            background: #fff;
+            border-radius: 50%;
+            animation-name: spin;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            top: 50px; 
+        }
+
+        .gear .center {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            z-index: 10;
+            width: 100px;
+            height: 100px;
+            background: #198;
+            border-radius: 50%;
+        }
+
+        .tooth {
+            position: absolute;
+            top: -25px;
+            left: 75px;
+            z-index: 1;
+            width: 45px;
+            height: 250px;
+            background: #fff;
+        }
+
+        .tooth:nth-child(2) {
+            transform: rotate(45deg);
+        }
+
+        .tooth:nth-child(3) {
+            transform: rotate(90deg);
+        }
+
+        .tooth:nth-child(4) {
+            transform: rotate(135deg);
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Disable scrolling */
+        html, body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scoreboard</h1><br>
+<div class="gear">
+    <div class="center"></div>
+    <div class="tooth"></div>
+    <div class="tooth"></div>
+    <div class="tooth"></div>
+    <div class="tooth"></div>
+</div>
+<br><br>
+<div class="scoreboard">
+    <div class="team">
+        <h2>Team A</h2>
+        <p class="score" id="teamAScore">0</p>
+        <button onclick="increaseScore('teamAScore')">+1</button>
+        <button onclick="decreaseScore('teamAScore')">-1</button>
+    </div>
+    <div class="team">
+        <h2>Team B</h2>
+        <p class="score" id="teamBScore">0</p>
+        <button onclick="increaseScore('teamBScore')">+1</button>
+        <button onclick="decreaseScore('teamBScore')">-1</button>
+    </div>
+</div>
+<br><br><br><br><br>
+<script>
+    function increaseScore(teamId) {
+        const scoreElement = document.getElementById(teamId);
+        const currentScore = parseInt(scoreElement.textContent);
+        scoreElement.textContent = currentScore + 1;
+    }
+
+    function decreaseScore(teamId) {
+        const scoreElement = document.getElementById(teamId);
+        const currentScore = parseInt(scoreElement.textContent);
+        if (currentScore > 0) {
+            scoreElement.textContent = currentScore - 1;
+        }
+    }
+</script>
+<h5 align="right"><i>Prepared By: Md. Nahul Rahman<br>CSE-22, ID: 202214049</i></h5>
+</body>
+</html>
